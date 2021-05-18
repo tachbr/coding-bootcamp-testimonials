@@ -1,0 +1,130 @@
+@media screen and (max-width:400px){
+
+body h1{
+  font-size: 12px;
+}
+
+  div .quote{
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+    font-size: 22px;
+  }
+
+  div .slider-control{
+    max-width:100%;
+    right:38%;
+  }
+
+  div .text-col{
+    margin-top: 60px;
+  }
+
+  div .job{
+    text-align: center;
+    display: block;
+  }
+
+  div .name{
+    text-align: center;
+    padding-right: 0;
+    margin-left: 0;
+  }
+
+}
+
+
+
+
+
+body{
+  font-size: 32px;
+  color:hsl(240, 38%, 20%);
+}
+
+
+
+h1{
+  font-size: 24px;
+}
+
+
+
+.slider-container{
+  width:80%;
+  margin-top:100px;
+  background-color: #fff;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+.name{
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 20px;
+  margin-left: 50px;
+}
+
+.job{
+  font-size: 18px;
+  color:hsl(240, 18%, 77%);
+}
+
+.img-col{
+  background-image: url("../images/pattern-bg.svg");
+  background-repeat: no-repeat;
+  background-position: 20% 10%;
+  background-size: contain;
+}
+
+.img-container{
+  margin-left: 50px;
+  z-index: 1;
+}
+
+.text-col{
+  margin-top:120px;
+  overflow-x: visible;
+  background-image: url("../images/pattern-quotes.svg");
+  background-repeat: no-repeat;
+  background-position: 30% 0;
+  z-index: 2;
+
+}
+
+.quote{
+  width:125%;
+  margin-left: 50px;
+}
+
+.profile-photo{
+  margin-top: 70px;
+  width:90%;
+}
+
+.slider-control{
+  border:hsl(240, 18%, 77%) solid 1px;
+  border-radius: 20px;
+  background-color: #fff;
+  padding-bottom: 10px;
+  max-width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  right:27%;
+  margin-top: -20px;
+  position:absolute;
+  z-index: 2;
+}
+
+.slider-icon{
+  padding:10px;
+}
+
+.display-slide{
+  display: none;
+}
+
+.curve-bkgd{
+  margin-bottom: 50px;
+}
